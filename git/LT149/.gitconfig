@@ -1,0 +1,10 @@
+[user]
+	name = Robb Corbett
+	email = rcorbett@fuelyouth.com
+[difftool "sourcetree"]
+	cmd = 'C:/Program Files/KDiff3/kdiff3.exe' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = 'C:/Program Files/KDiff3/kdiff3.exe' \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+	trustExitCode = true
+[gui]
+	fontdiff = -family Inconsolata -size 10 -weight normal -slant roman -underline 0 -overstrike 0
