@@ -1,1 +1,94 @@
-../../../Users/rcorbett/AppData/Roaming/Code/User/settings.json
+{
+    "csharp.suppressDotnetInstallWarning": true,
+    "terminal.integrated.fontFamily": "Inconsolata, Consolas, Monaco, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 10,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.cursorStyle": "line",
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "solid",
+    "editor.fontSize": 12,
+    "editor.fontFamily": "Inconsolata, Consolas, Monaco,'Courier New', monospace",
+    //"editor.lineHeight": 12,
+    "editor.wordWrap": "on",
+    "editor.mouseWheelScrollSensitivity": 2,
+    "editor.quickSuggestionsDelay": 300,
+    "editor.acceptSuggestionOnEnter": false,
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": true,
+    "workbench.welcome.enabled": false,
+    //"window.showFullPath": true,
+    "window.zoomLevel": 0,
+    "sync.gist": "675df90fa8a3163f5d85f88c9db14d5a",
+    "sync.lastUpload": "2017-08-28T14:00:46.218Z",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastDownload": "2017-08-17T19:53:09.983Z",
+    //"sync.version": 262,
+    //"sync.showSummary": false,
+    "sync.forceDownload": false,
+    "sync.anonymousGist": false,
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "todohighlight.defaultStyle": {"color": "Black","backgroundColor": "Magenta","overviewRulerColor": "Magenta"},
+    "todohighlight.keywords": [
+        "BUG","REVIEW","RWC", "HACK","NOTE","NOTES",
+        {"text": "KW", "backgroundColor": "Lime"},
+        {"text": "UNI", "backgroundColor": "Lime"},
+        {"text": "TODO","color": "White","backgroundColor": "Red"}
+    ],
+    "workbench.colorTheme": "Material Theme",
+    "gitlens.blame.annotation.style": "compact",
+    "gitlens.blame.annotation.author": false,
+    "gitlens.blame.annotation.date": "relative",
+    "gitlens.blame.annotation.highlight": "gutter",
+    "gitlens.codeLens.location": "document",
+    "colorInfo.languages": [
+        {
+            "selector": "css",
+            "colors": "css"
+        },
+        {
+            "selector": "sass",
+            "colors": "css"
+        },
+        {
+            "selector": "scss",
+            "colors": "css"
+        },
+        {
+            "selector": "less",
+            "colors": "css"
+        },
+        {
+            "selector": "json",
+            "colors": "css"
+        }
+    ],
+    "colorize.languages": [
+        "css",
+        "sass",
+        "scss",
+        "less",
+        "pcss",
+        "sss",
+        "stylus",
+        "xml",
+        "svg",
+        "json"
+    ],
+    //"eslint.nodePath": 
+    //"eslint.enable": true,
+    "projectManager.sortList": "Recent",
+    "projectManager.groupList": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "gitlens.blame.file.lineHighlight.locations": [
+        "gutter",
+        "overviewRuler"
+    ],
+    "gitlens.codeLens.locations": [
+        "document"
+    ],
+    "sync.askGistName": false,
+    "workbench.iconTheme": "material-icon-theme"
+}
