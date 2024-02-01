@@ -1,5 +1,11 @@
 # ***
-# keep this file in the `dotfiles` folder - symlink it to root of home folder: ` ln -s ~/dotfiles/.zshrc ~/.zshrc`
+# ***
+# ***
+# 
+# keep this file in the `dotfiles` folder - symlink it to root of home folder: `ln -s ~/dotfiles/.zshrc ~/.zshrc`
+# 
+# ***
+# ***
 # ***
 
 # ###
@@ -9,8 +15,13 @@ export HOME=${HOME:-'/Users/robb'}
 # echo "HOME == $HOME"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="$HOME/":"$PATH"
+
 export PATH=$PATH:"/opt/homebrew/bin"
 export PATH=$PATH:"/opt/homebrew/opt"
+
+# https://github.com/mivok/slack_status_updater
+export PATH=$PATH:$HOME/dotfiles/slack_status_updater
+
 # echo "PATH == $PATH"
 
 # ###
@@ -75,6 +86,7 @@ export SPACESHIP_CONFIG="$HOME/dotfiles/spaceship-conf/.spaceshiprc.zsh"
 # ###
 
 # Slack status; use script and Hammerspoon
+# alias ss="slack_status.sh $@"
 alias ss-away="awayback.sh away"
 alias ss-offline="slack_status.sh none;awayback.sh away;"
 alias ss-lunch="slack_status.sh lunch;awayback.sh away;"
