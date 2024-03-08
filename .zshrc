@@ -22,6 +22,16 @@ export PATH=$PATH:"/opt/homebrew/opt"
 # https://github.com/mivok/slack_status_updater
 export PATH=$PATH:$HOME/dotfiles/slack_status_updater
 
+# sphp -- https://github.com/rhukster/sphp.sh
+#       `ln -s ~/dotfiles/sphp.sh/sphp.sh /usr/local/bin/sphp`
+#       `chmod +x /usr/local/bin/sphp`
+export PATH="/opt/homebrew/opt/php@7.4/bin":$PATH
+export PATH="/opt/homebrew/opt/php@7.4/sbin":$PATH
+export PATH="/opt/homebrew/opt/php@8.1/bin":$PATH
+export PATH="/opt/homebrew/opt/php@8.1/sbin":$PATH
+export PATH="/opt/homebrew/opt/php@8.2/bin":$PATH
+export PATH="/opt/homebrew/opt/php@8.2/sbin":$PATH
+
 # echo "PATH == $PATH"
 
 # ###
@@ -79,7 +89,6 @@ source $ZSH/oh-my-zsh.sh
 # ###
 export SPACESHIP_CONFIG="$HOME/dotfiles/spaceship-conf/.spaceshiprc.zsh"
 # echo "SPACESHIP_CONFIG == $SPACESHIP_CONFIG"
-
 
 # ###
 # ALIASES
